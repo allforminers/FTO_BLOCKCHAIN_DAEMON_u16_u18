@@ -24,7 +24,7 @@ echo
 echo "Extract files."   
 sleep 5   
 unzip FTO-18u-Daemons.zip
-
+cd FTO-18u-Daemons
 echo   
 echo "Install the daemon and tools."   
 sleep 5   
@@ -35,7 +35,6 @@ sleep 5
 mkdir $HOME/.futurocoincore   
 nano $HOME/.futurocoincore/futurocoin.conf  
 echo
-echo "starting daemon"
-sleep 5
-khrysusd
+
+
 
